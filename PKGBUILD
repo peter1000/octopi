@@ -36,7 +36,7 @@ build() {
     
     cd $startdir/notifier/octopi-notifier
     msg "Building octopi-notifier..."
-    qmake-qt4 octopi-notifier.pro
+    qmake-qt5 octopi-notifier.pro
     make -j $jc
 
     cd $startdir/repoeditor
